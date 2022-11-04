@@ -1,5 +1,5 @@
 module top_module(
-        input a, b ,c, d, 
+        input a, b , c, d, 
         output out, out_n);
 
     wire w1, w2;
