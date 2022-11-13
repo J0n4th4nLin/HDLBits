@@ -11,3 +11,9 @@ module top_module(
     assign out_not = {~b, ~a};
     
 endmodule
+
+/*
+             OR,AND,NOT
+    Bitewise: |,  &, ~
+    Logical: ||, &&, !
+*/
