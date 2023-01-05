@@ -19,3 +19,8 @@ module top_module(
     end
 
 endmodule
+
+/*
+https://www.cnblogs.com/oomusou/archive/2008/07/05/verilog_blocking_nonblocking.html
+https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
+*/

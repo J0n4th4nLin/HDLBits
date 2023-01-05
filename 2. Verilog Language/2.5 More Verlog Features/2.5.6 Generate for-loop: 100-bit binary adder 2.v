@@ -7,7 +7,7 @@ module top_module(
     generate
         genvar i;
         
-        for(i = 0; i < 100; i = i+1)begin: adder
+        for(i = 0; i <= 99; i += 1)begin: adder
             if(i == 0)begin
                 assign{cout[0],sum[0]} = a[0] + b[0] + cin;
             end
